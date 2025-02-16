@@ -32,7 +32,7 @@ class MemoryManager:
                 documents=[query],
                 metadatas=[{"response": response}],
                 ids=[doc_id]
-            )
+         )
 
     def retrieve_memory(self, query):
         """Retrieves stored memory, prioritizing personal user information first."""
